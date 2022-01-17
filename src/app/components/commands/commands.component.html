@@ -1,0 +1,14 @@
+<p-dialog [(visible)]="showCommands" [style]="{ width: '500px' }">
+    <ng-template pTemplate="header">
+        <span class="habbo-icon info"></span>
+        Commands Box
+    </ng-template>
+    <div class="grid grid-nogutter">
+        <div class="col">
+            <span class="p-input-icon-left">
+                <i class="pi pi-search"></i>
+                <input type="text" pInputText [(ngModel)]="commandSearch" placeholder="Search">         
+            </span>
+        </div>
+    </div>
+</p-dialog>

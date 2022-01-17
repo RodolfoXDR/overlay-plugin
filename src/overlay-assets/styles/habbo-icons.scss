@@ -1,0 +1,88 @@
+.habbo-icon {
+    background-image: url('../images/habboui_assets.png');
+
+    &.builder {
+        background-position: 51px 152px;
+        height: 15px;
+        width: 22px;
+    }
+
+    &.info {
+        background-position: 16px 234px;
+        height: 23px;
+        width: 12px;
+    }
+    
+    &.shoes {
+        background-position: 150px 179px;
+        height: 23px;
+        width: 29px;
+    }
+    
+    &.checkmark {
+        background-position: 33px 0;
+        height: 20px;
+        width: 20px;
+    }
+    
+    &.checkmark-2 {
+        background-position: 125px -194px;
+        height: 21px;
+        width: 20px;
+    }
+    
+    &.cross {
+        background-position: 72px 132px;
+        height: 22px;
+        width: 21px;
+    }
+    
+    &.tile {
+        background-position: 54px 0px;
+        height: 23px;
+        width: 22px;
+    }
+    
+    &.furni {
+        background-position: 72px 330px;
+        height: 27px;
+        width: 22px;
+    }
+    
+    &.exclamationmark {
+        background-position: 19px 799px;
+        height: 21px;
+        width: 21px;
+    }
+    
+    &.alert {
+        background-position: 122px 235px;
+        height: 30px;
+        width: 24px;
+    }
+    
+    &.event-alert {
+        background-position: 119px 498px;
+        height: 22px;
+        width: 24px;
+    }
+     
+    &.search {
+        background-position: 49px 460px;
+        height: 19px;
+        width: 20px;
+    }
+    
+    &.speech {
+        background-position: 102px -28px;
+        height: 26px;
+        width: 26px;
+    }
+    
+    &.settings {
+        background-position: 56px 764px;
+        height: 22px;
+        width: 22px;
+        margin: -6px 0;
+    }
+}
